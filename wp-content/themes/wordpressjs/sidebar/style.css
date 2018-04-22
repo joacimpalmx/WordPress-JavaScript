@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: lightblue;
+  }
+
+  .toggle{
+      cursor: pointer;
+      position: fixed;
+  }
+
+  /* Sidebar menu Styling */
+
+  .sidebar_menu{
+      position: fixed;
+      width: 250px;
+      margin-left: -250px;
+      overflow: hidden;
+      height: 100vh;
+      max-width: 100vh;
+      background-color: #0984e3;
+      transition: all .4s ease-in-out;
+  }
+
+  /* Text Logo Styling */
+  
+  .boxed_item{
+	font-family: 'Oswald';
+	font-weight: 300;
+	padding: 10px 20px;
+	width: 200px;
+	border: solid 2px white;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .logo_bold{
+      font-weight: 500;
+  }
+
+  .logo_title{
+      color: #fff;
+      font-family: 'Oswald';
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px 0;
+  }
+
+  /* Navigation Links */
+  .navigation_selection{
+      margin: 20px 0;
+      display: block;
+      width: 200px;
+      margin-left: 25px;
+  }
+
+  .navigation_item{
+      font-weight: 300;
+      text-align: center;
+      font-family: 'Oswald';
+      color: #fff;
+      padding: 12px 0;
+      box-sizing: border-box;
+      font-size: 16px;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      transition: all .3s ease-in-out;
+  }
+
+  .navigation_item:hover{
+      transition: all .3s ease-in-out;
+      color: #74b9ff;
+  }
+
+  .boxed_item_smaller{
+      font-size: 12px;
+      color: #fff;
+      width: 200px;
+      transition: all .3s ease-in-out;
+      cursor: pointer;
+      border-width: 1px;
+  }
+
+  .boxed_item_smaller:hover{
+      background-color: #fff;
+      color: #0984e3;
+      transition: all .3s ease-out;
+  }
+
+  /* Close sidebar menu x-icon styling */
+
+  .fa-times{
+    right: 10px;
+    top: 10px;
+    opacity: .7;
+    cursor: pointer;
+    position: absolute;
+    color: #fff;
+    transition: all .3s ease-in-out;
+  }
+
+   .fa-times:hover{
+      opacity: 1;
+  }
+  
+  .hide_menu{
+      margin-left: 0px;
+  }
+
